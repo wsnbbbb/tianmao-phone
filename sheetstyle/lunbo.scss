@@ -1,0 +1,48 @@
+.lunbo{
+  width: 7.5rem;
+  height: 2.84rem;
+//   background: black;
+  overflow: hidden;
+}
+.lunbo-1{
+    width: 700%;
+    animation: lunbo 25s linear infinite;
+    margin-top: .2rem;
+    position: relative;
+}
+.lunbo-1>li{
+	widows: 7.5rem;
+    height:2.84rem;
+    float: left; 
+    position: relative;
+}
+.lunbo-1>li>img{
+    width: 7.5rem;
+    height: 2.84rem;
+}
+@keyframes lunbo{
+    0%,15% {
+        margin-left: 0px;
+    }
+    17%,32%{
+        margin-left: -100%;
+    }
+    34%,49% {
+        margin-left: -200%;
+    }
+    51%,66% {
+        margin-left:-300%;
+    }
+    68%,82%{
+        margin-left: -400%;
+    }
+    83%,98% {
+        margin-left: -500%;
+    }
+    100% {
+        margin-left:-600%;
+    }
+}
+.empty{
+    height: .29rem;
+}

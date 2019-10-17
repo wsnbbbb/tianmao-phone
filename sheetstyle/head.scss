@@ -1,0 +1,27 @@
+.content{
+    padding-top: 1.8rem;
+}
+.head{
+    width: 7.5rem;
+    height: 1.56rem;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.head a{
+    text-align: center;
+    font-size: .4rem;
+    line-height: .6rem;
+    margin: 0 auto;
+}
+.head img{
+    width: .96rem;
+    height: .96rem;
+    margin: .1rem .22rem .04rem;
+}
+.head span{
+    display: block;
+    font-size: .26rem;
+    text-align: center;
+    line-height: .3rem;
+}
